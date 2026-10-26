@@ -19,8 +19,8 @@ Notes, confidence ratings and "ready" checkboxes save in each viewer's own brows
 (Or just double-click `index.html`. It works without a server.)
 
 ## Deploy to GitHub Pages
-1. Push this repository to GitHub on the `main` branch.
-2. In **Settings → Pages**, set the build and deployment source to **GitHub Actions**.
+1. In **Settings → Pages**, set the build and deployment source to **GitHub Actions**.
+2. Push this repository to GitHub on the `main` branch. If a previous deployment failed before Pages was enabled, this new push will trigger a fresh deployment.
 3. The workflow deploys `index.html` and, if present, the `assets/` directory on every push to `main`. You can also start it from **Actions → Deploy interview prep to GitHub Pages → Run workflow**.
 4. After the workflow succeeds, open https://tolu-jnj.github.io/GAA-interivew/ and verify the app interactions.
 
