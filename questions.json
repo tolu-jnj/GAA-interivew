@@ -1,0 +1,571 @@
+[
+  {
+    "category": "Opening",
+    "question": "Tell us about yourself and why this role?",
+    "answer": "I am a Staff Engineer in CAR-T Business Excellence, and my work sits at the intersection of regulated operations, analytics, automation, and transformation. In LVV, I have built and governed Tier 1, Tier 2, and Tier 3 performance-management solutions, aligned metrics across COMET, TrackWise, SUMMIT, and CURVE, and helped move leadership reviews from ad hoc reporting toward standard definitions, recurring decision cadences, and scalable dashboards. I also led analytics around nonconformances and investigation quality, including a 2025 baseline and Q1 year-over-year analysis across 354 records, plus an AI-enabled NC/CAPA draft-review approach grounded in approved procedures. What attracts me to this role is the opportunity to apply that same combination of technical building, control discipline, and adoption leadership at enterprise scale. I would bring the perspective of someone who understands both the data product and the operating process it is meant to improve.",
+    "id": "tell-us-about-yourself-and-why-this-role",
+    "legacyStorageIndex": 0,
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "evidence": "Opening bridge from regulated CAR-T work to GAA transformation.",
+    "panelFocus": [
+      "Torian Conner",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Motivation",
+    "question": "Why move from CAR-T manufacturing to Corporate Global Audit & Assurance?",
+    "answer": "I see this as a scale shift, not a departure from my core work. In CAR-T I learned how to turn highly regulated, fragmented operational data into trusted decisions. GAA would let me apply that capability across functions, geographies, and technology domains. The business problem is also familiar: define the decision, establish trustworthy data, standardize the workflow, automate repeatable work, and keep human judgment where risk is high. The leadership program is especially attractive because I want to grow from leading cross-functional transformation into formally leading a digital analytics team.",
+    "id": "why-move-from-car-t-manufacturing-to-corporate-global-audit-and-assurance",
+    "legacyStorageIndex": 1,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Direct experience translating regulated CAR-T operations into trusted decisions.",
+    "panelFocus": [
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Motivation",
+    "question": "Why should we select you over a traditional audit or finance candidate?",
+    "answer": "A traditional audit candidate may bring deeper audit methodology on day one. My differentiator is that I can partner with auditors to build the digital capabilities that change how audits are performed. I understand controls, evidence, traceability, change control, and risk from GMP operations, while also bringing hands-on experience with Power BI, Databricks, Power Platform, data pipelines, APIs, and application development. I would not pretend to replace audit judgment. I would help turn that judgment into governed, repeatable, scalable analytics and automation.",
+    "id": "why-should-we-select-you-over-a-traditional-audit-or-finance-candidate",
+    "legacyStorageIndex": 2,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Honest differentiation: governed digital products complement audit judgment.",
+    "panelFocus": [
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Role fit",
+    "question": "What do you understand this job to be?",
+    "answer": "The role owns the end-to-end design and implementation of analytics, RPA, AI, OCR, and other tools used in internal audits or investigations. The outcome is not simply a dashboard. It is improved process effectiveness and efficiency, new insight, standardization, repeatability, scalability, and a better end-user experience. It also includes governance for data quality and change control, code review and testing, global training, influencing GAA leadership, and potentially leading one to three people.",
+    "id": "what-do-you-understand-this-job-to-be",
+    "legacyStorageIndex": 3,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Role framing covers analytics delivery, governance, adoption, and leadership.",
+    "panelFocus": [
+      "Torian Conner",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "3E",
+    "question": "How would you apply 3E Value Realization to a digital audit solution?",
+    "answer": "I would define value before building. For Efficiency, I would baseline hours, cycle time, repetitive extraction effort, and rework, then measure the same result at lower cost. For Effectiveness, I would measure improved outcomes without increased cost, such as broader population coverage, earlier risk detection, fewer false negatives, or better control-test consistency. For Experience, I would measure stakeholder satisfaction, usability, time-to-insight, and adoption. I would align the KPI, data source, classification, and target with Finance, then compare realized value with the baseline after go-live. For an audit-risk application, I would resist claiming value from activity counts alone. The value should connect to a decision or risk outcome.",
+    "id": "how-would-you-apply-3e-value-realization-to-a-digital-audit-solution",
+    "legacyStorageIndex": 4,
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "evidence": "3E value approach includes baselines, KPIs, Finance alignment, and realized results.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Data theory",
+    "question": "Explain Data Operating Theory and how you use it.",
+    "answer": "I use it as a way to think about data before requesting a deliverable. I start with the business decision and governance, then separate the lifecycle into six activities: Governance, Generation, Collection and Standardization, Aggregation, Analysis, and Application. That separation prevents a common failure mode where ingestion, cleansing, model logic, and user interaction are mixed into one opaque solution. In my LVV work, I applied this thinking by documenting metric owners, source systems, refresh cadence, definitions, and validation checks before scaling Tier dashboards, and by distinguishing the NC analytical logic from the application that users interact with.",
+    "id": "explain-data-operating-theory-and-how-you-use-it",
+    "legacyStorageIndex": 5,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Data Theory separates governance and the six activities of the data lifecycle.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Data theory",
+    "question": "How would you structure an audit analytics repository?",
+    "answer": "I would make the repository reflect the data lifecycle: 1-Governance, 2-Generation, 3-Collection_Standardization, 4-Aggregation, 5-Analysis, and 6-Application. Governance would point to business ownership, technical ownership, access instructions, documentation, versions, privacy and control requirements. Generation would contain source read and write logic plus identifiers that verify expected inputs. Collection and Standardization would harmonize schemas, units, names, datatypes, and keys. Aggregation would create derived features supporting the analysis. Analysis would contain the actual risk or audit model. Application would contain orchestration, APIs, user interaction, tests, operational health, monitoring, and feedback.",
+    "id": "how-would-you-structure-an-audit-analytics-repository",
+    "legacyStorageIndex": 6,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Repository structure makes ownership, lineage, testing, and operating health visible.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl",
+      "Cameron Craig"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "Walk us through an end-to-end data product you built.",
+    "answer": "A strong example is LVV Tier performance management. The initial problem was fragmented manual reporting across Tier 1, Tier 2, and Tier 3. I mapped the workflows, identified the decisions and escalation paths, documented metric definitions, owners, refresh cadence, calculation methods, and source alignment across COMET, TrackWise, SUMMIT, and CURVE. I deployed Tier 1 and Tier 2 digital boards with 7- and 30-day rollups, action aging, open escalations, and leadership-ready views. I also defined a 48-hour action rule and trained facilitators. During a 20-workday review window, the overall MET rate was 81.4% across 215 entries, with two open escalations. The key lesson was that the dashboard was only one layer. The value came from the operating model, definitions, accountability, and sustainment.",
+    "id": "walk-us-through-an-end-to-end-data-product-you-built",
+    "legacyStorageIndex": 7,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Direct LVV evidence: Tier boards, operating cadence, action rules, and measured review results.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl",
+      "Avennia Richards-Maragh"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "Describe your Power BI experience.",
+    "answer": "I use Power BI in the context of governed operational reporting, not only visualization. My approach is to begin with the decision and grain, define measures and ownership, reconcile outputs to source data, and design separate views for operator action and leadership oversight. In LVV, my dashboard work has covered NCs, action aging, schedule attainment, Tier performance, and review-and-release cycle-time visibility. I would bring the same discipline to audit analytics by separating reusable semantic measures from presentation logic and by documenting refresh, lineage, and validation.",
+    "id": "describe-your-power-bi-experience",
+    "legacyStorageIndex": 8,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Governed Power BI reporting across NCs, action aging, schedule attainment, and Tier performance.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "What is your Tableau experience?",
+    "answer": "My strongest production experience is in Power BI rather than Tableau. I would be transparent about that. The transferable skills are data modeling, calculation logic, filtering, performance-aware visualization, UX, governance, and stakeholder adoption. I can ramp quickly on Tableau, but I would not overstate direct depth. My value on day one would be in framing the decision, building trusted data products, and applying visualization principles consistently across platforms.",
+    "id": "what-is-your-tableau-experience",
+    "legacyStorageIndex": 9,
+    "priority": "Core",
+    "prepStatus": "Existing",
+    "evidence": "Explicitly bridges Power BI experience to Tableau without overstating production depth.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "How strong are you in Python?",
+    "answer": "I use Python as part of my analytics and automation toolkit, particularly for data preparation, repeatable analysis, and logic that is better handled outside a spreadsheet. My engineering discipline is to keep ingestion, standardization, aggregation, analysis, and application concerns explicit, test assumptions, and document inputs and outputs. I would describe myself as applied and growing rather than claim to be a specialist software engineer. Where the work is production-critical, I expect code review, tests, version control, logging, and clear operational ownership.",
+    "id": "how-strong-are-you-in-python",
+    "legacyStorageIndex": 10,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Describes applied Python use and production-engineering practices without claiming specialist depth.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "Tell us about APIs and automation.",
+    "answer": "I have worked with automation and API-oriented solutions through Power Platform, application development, and digital workflows. My design rule is to use deterministic automation when inputs, rules, and outcomes are stable, and reserve AI or agents for tasks requiring interpretation or dynamic reasoning. For an audit use case, I would define the contract, authentication, expected schema, error handling, retries, logging, and ownership before connecting systems. I would also separate read, transform, decision, and write-back steps so the control points remain auditable.",
+    "id": "tell-us-about-apis-and-automation",
+    "legacyStorageIndex": 11,
+    "priority": "Medium",
+    "prepStatus": "Strengthen",
+    "evidence": "API-oriented workflow experience paired with contract, error, and auditability controls.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "How would you ingest SAP and BRAVO data for a risk-scoring application?",
+    "answer": "I would first define the audit-planning decision at the correct grain, for example business unit, process, or legal entity. In Generation, I would identify approved SAP and BRAVO sources, extraction method, access owner, cadence, and expected schema. In Collection and Standardization, I would harmonize entity keys, time periods, currencies, risk taxonomies, and missing-value rules. In Aggregation, I would derive transparent features such as transaction volume, control exceptions, prior findings, change velocity, or data-quality indicators. In Analysis, I would begin with an explainable weighted score before considering a predictive model. In Application, I would show the score, drivers, provenance, confidence or data-quality caveats, and allow authorized human review. I would never let the score become an unexplained audit conclusion.",
+    "id": "how-would-you-ingest-sap-and-bravo-data-for-a-risk-scoring-application",
+    "legacyStorageIndex": 12,
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "evidence": "SAP/BRAVO ingestion plan emphasizes transparent features, provenance, and human review.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Deana Kimbler-Muehl",
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "How would you combine qualitative and quantitative data into a risk score?",
+    "answer": "I would create a common unit of analysis and keep the source type visible. Quantitative measures would be normalized against appropriate peer groups or baselines. Qualitative ratings would use anchored definitions so a rating of three means the same thing across assessors. I would document weighting, directionality, missing-data treatment, and override rules. I would back-test the score against historical audit outcomes, perform sensitivity analysis, and monitor drift. The interface should show both the score and its drivers so an auditor can challenge it. A human remains accountable for the annual audit-plan decision.",
+    "id": "how-would-you-combine-qualitative-and-quantitative-data-into-a-risk-score",
+    "legacyStorageIndex": 13,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Risk score includes transparent drivers, back-testing, sensitivity, and accountable human decisions.",
+    "panelFocus": [
+      "Torian Conner",
+      "Cameron Craig"
+    ]
+  },
+  {
+    "category": "Technical",
+    "question": "What tests would you require before releasing an audit analytic?",
+    "answer": "I would test each lifecycle layer. For Generation: credentials, source availability, read/write access, file type, schema, and empty inputs. For Collection and Standardization: duplicate rules, required columns, datatypes, valid keys, naming, units, and conformance. For Aggregation: engineered-feature sanity, missing values, outliers, and reproducibility. For Analysis: training-target consistency, leakage, performance, bias where relevant, drift, and explainability. For Application: dead buttons, downloads, filters, permissions, multi-user behavior, graceful failure, logging, performance, and browser behavior. I would also run regression tests against a golden output and define monitoring and rollback before go-live.",
+    "id": "what-tests-would-you-require-before-releasing-an-audit-analytic",
+    "legacyStorageIndex": 14,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Release testing spans lifecycle layers, regression, monitoring, and rollback.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "AI",
+    "question": "Where would you use AI, ML, OCR, or RPA in audit?",
+    "answer": "I would match the technology to the work. OCR is useful for extracting structured fields from invoices, contracts, or evidence packages. Deterministic RPA fits repeatable retrieval or reconciliation steps with stable rules. ML can prioritize anomalies or estimate risk where a validated historical signal exists. Generative AI can assist with evidence synthesis, issue-taxonomy mapping, draft workpapers, or retrieval across approved knowledge. I would keep audit conclusions, materiality judgments, allegations, and irreversible actions behind explicit human review. My LVV NC/CAPA draft-review pilot followed that pattern: the model supported a rubric grounded in approved procedures, while accountable individuals retained the decision.",
+    "id": "where-would-you-use-ai-ml-ocr-or-rpa-in-audit",
+    "legacyStorageIndex": 15,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Technology selection matches task risk and keeps consequential decisions under human review.",
+    "panelFocus": [
+      "Torian Conner",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "AI",
+    "question": "How would you govern an AI-assisted investigation tool?",
+    "answer": "I would define the approved use case, prohibited uses, data classification, permitted sources, access control, retention, audit logging, validation criteria, human reviewer, and exception path. Outputs should cite source evidence and distinguish fact from hypothesis. The solution should not autonomously make a compliance conclusion or write back to a system of record without approval. I would test known failure modes such as missing context, contradictory evidence, fabricated citations, prompt injection, and sensitive-data exposure, then monitor both technical performance and business impact.",
+    "id": "how-would-you-govern-an-ai-assisted-investigation-tool",
+    "legacyStorageIndex": 16,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "AI governance covers approved use, evidence traceability, review, exceptions, and monitoring.",
+    "panelFocus": [
+      "Torian Conner",
+      "Avennia Richards-Maragh"
+    ]
+  },
+  {
+    "category": "Audit",
+    "question": "You are not an auditor. How will you succeed?",
+    "answer": "I would treat audit methodology as a domain I must learn quickly and respectfully. I already work in a regulated environment where evidence, procedures, traceability, segregation of duties, change control, CAPA, and defensibility matter. I would partner with audit SMEs to define the control objective and acceptance criteria, while I own the digital design, data lineage, testing, and adoption. My role is not to turn technology into audit judgment; it is to make high-quality audit judgment more scalable and better informed.",
+    "id": "you-are-not-an-auditor-how-will-you-succeed",
+    "legacyStorageIndex": 17,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Regulated controls/evidence experience is positioned as adjacent to audit methodology.",
+    "panelFocus": [
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Audit",
+    "question": "What is your understanding of SOX and continuous monitoring?",
+    "answer": "At a practical level, SOX requires reliable internal control over financial reporting and evidence that key controls are designed and operating effectively. Continuous monitoring uses recurring analytics to surface exceptions or changing risk instead of waiting for periodic manual review. For a digital analyst, the obligation is to preserve source lineage, rule versioning, completeness, access controls, reproducibility, and evidence. I would confirm specific GAA policy and methodology with audit leadership rather than assume that manufacturing controls map one-for-one to financial controls.",
+    "id": "what-is-your-understanding-of-sox-and-continuous-monitoring",
+    "legacyStorageIndex": 18,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "SOX and continuous-monitoring answer explicitly avoids claiming one-to-one GMP equivalence.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Leadership",
+    "question": "Tell us about influencing without authority.",
+    "answer": "When I developed LVV Tier 1 and Tier 2 daily management, I did not own Operations, Warehouse, Planning, Quality, or EHS. I created shared charters, clarified decision rights and escalation paths, defined the 48-hour action rule, trained facilitators, and built visible dashboards that made the process useful to each function. Adoption came from embedding the solution in the daily work and rotating facilitation, not from asking people to view another report. The process continued during my paternity leave, which was an important sustainment test.",
+    "id": "tell-us-about-influencing-without-authority",
+    "legacyStorageIndex": 19,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Direct cross-functional LVV evidence: charters, escalation rules, facilitator training, and sustainment.",
+    "panelFocus": [
+      "Torian Conner",
+      "Avennia Richards-Maragh"
+    ]
+  },
+  {
+    "category": "Leadership",
+    "question": "Tell us about leading global or cross-site work.",
+    "answer": "For the Advanced Therapies Lentivirus scorecard, I served as the business process owner and collaborated with Raritan and Sassenheim stakeholders to consolidate requirements for the OPM platform. We aligned KPI categories, time views, metric definitions, and phased tool requirements. My role was to translate local operational needs into a standardized design without erasing valid site differences. That experience is directly relevant to GAA, where scalable solutions must work across regions and business contexts.",
+    "id": "tell-us-about-leading-global-or-cross-site-work",
+    "legacyStorageIndex": 20,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Direct Raritan/Sassenheim scorecard alignment and requirements ownership.",
+    "panelFocus": [
+      "Torian Conner",
+      "Cameron Craig"
+    ]
+  },
+  {
+    "category": "Leadership",
+    "question": "How do you coach or give constructive feedback?",
+    "answer": "I set the standard, show the evidence, explain the impact, and agree on the next behavior. In digital work, feedback should be specific enough to act on, whether it is a metric-definition gap, an untested edge case, or unclear ownership after go-live. I also separate capability gaps from commitment gaps. My Lean facilitation and Tier facilitator training taught me that sustainable coaching includes practice, observation, and follow-up, not a one-time presentation.",
+    "id": "how-do-you-coach-or-give-constructive-feedback",
+    "legacyStorageIndex": 21,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Coaching approach draws on Lean facilitation and Tier facilitator training.",
+    "panelFocus": [
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Leadership",
+    "question": "How would you lead 1–3 direct reports?",
+    "answer": "I would give each person clear outcomes, decision rights, quality standards, and development goals. Work would be visible through a prioritized backlog tied to GAA outcomes. I would review products at decision points rather than micromanage every task, and I would require documentation, peer review, tests, and stakeholder feedback as part of done. I would use regular one-on-ones for growth and remove blockers, while making accountability explicit. The goal would be a team that can operate reliably without becoming dependent on me.",
+    "id": "how-would-you-lead-1-3-direct-reports",
+    "legacyStorageIndex": 22,
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "evidence": "Separates demonstrated cross-functional leadership from the direct-management development edge.",
+    "panelFocus": [
+      "Torian Conner"
+    ]
+  },
+  {
+    "category": "Behavioral",
+    "question": "Tell us about a project that did not go as planned.",
+    "answer": "A recurring lesson in my dashboard work is that automating a poorly defined metric creates faster disagreement, not better decisions. When definitions, ownership, or grain were not aligned, I stepped back from the tool, documented the business definition and calculation, reconciled source data, and brought the stakeholders together before continuing. The lesson I now carry is to treat governance as the first activity, not the final documentation step.",
+    "id": "tell-us-about-a-project-that-did-not-go-as-planned",
+    "legacyStorageIndex": 23,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Governance lesson: resolve metric definition, ownership, and grain before automation.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Behavioral",
+    "question": "How do you prioritize competing requests?",
+    "answer": "I first clarify the decision, customer, risk, urgency, and 3E value. Then I separate critical control or compliance needs from convenience requests and score the remainder on value, feasibility, data readiness, adoption impact, and time to learning. I make trade-offs visible to sponsors and maintain a transparent backlog. I prefer a small governed pilot that proves the decision value over a large tool with unclear ownership.",
+    "id": "how-do-you-prioritize-competing-requests",
+    "legacyStorageIndex": 24,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "Prioritization balances risk, 3E value, feasibility, adoption, and time to learning.",
+    "panelFocus": [
+      "Torian Conner",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Scenario",
+    "question": "Your risk model conflicts with the audit team's judgment. What do you do?",
+    "answer": "I would not treat disagreement as model failure or human error by default. I would review the data grain, source completeness, feature definitions, weighting, time period, and any known context not represented in the model. I would show the drivers and run a sensitivity check. If the auditor has legitimate contextual evidence, the process should allow a documented override. The disagreement itself becomes feedback for model improvement. Final audit-planning accountability stays with the authorized leaders.",
+    "id": "your-risk-model-conflicts-with-the-audit-team-s-judgment-what-do-you-do",
+    "legacyStorageIndex": 25,
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "evidence": "Keeps human audit accountability explicit when risk-model output and judgment diverge.",
+    "panelFocus": [
+      "Torian Conner",
+      "Avennia Richards-Maragh"
+    ]
+  },
+  {
+    "category": "Scenario",
+    "question": "A senior leader asks you to skip testing to meet a deadline. What do you do?",
+    "answer": "I would explain the specific risk and offer a controlled alternative: reduce scope, release to a limited pilot, use read-only outputs, label limitations, add manual verification, or delay the high-risk feature. I would not silently remove required controls. In audit and investigation work, an unreliable output can undermine both the decision and trust in the broader digital program.",
+    "id": "a-senior-leader-asks-you-to-skip-testing-to-meet-a-deadline-what-do-you-do",
+    "legacyStorageIndex": 26,
+    "priority": "High",
+    "prepStatus": "Existing",
+    "evidence": "Offers controlled release alternatives rather than silently dropping required testing.",
+    "panelFocus": [
+      "Torian Conner",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "category": "Closing",
+    "question": "What would your first 90 days look like?",
+    "answer": "First, learn the GAA audit lifecycle, stakeholders, systems, control expectations, and existing product portfolio, including ARA. Second, inventory current requests and products across the six data activities, documenting owners, users, sources, refresh, tests, operational health, and value measures. Third, select one use case with a clear decision, accessible data, manageable risk, and visible 3E value. Deliver a governed pilot with acceptance criteria, Finance-aligned value measures, user training, monitoring, and a scale or stop decision. In parallel, I would build relationships with auditors, Finance, Compliance, and technology partners so the solution fits the operating model rather than sitting beside it.",
+    "id": "what-would-your-first-90-days-look-like",
+    "legacyStorageIndex": 27,
+    "priority": "Medium",
+    "prepStatus": "Existing",
+    "evidence": "First-90-day plan starts with learning, product inventory, and one governed value pilot.",
+    "panelFocus": [
+      "Torian Conner"
+    ]
+  },
+  {
+    "id": "prod-sustainment-01",
+    "category": "Product / Operations",
+    "priority": "High",
+    "prepStatus": "Net-new",
+    "question": "After a digital audit solution goes live, how would you design ownership, monitoring, support, and change control so it remains reliable?",
+    "answer": "I treat go-live as the start of an operating model, not the end of a project. Before release, I want a named business owner and technical owner, documented sources and calculation logic, version control, acceptance tests, monitoring, a support and escalation path, change approval, and clear retirement criteria. That is consistent with what I learned in LVV: the Tier dashboards only became sustainable when the operating cadence, metric definitions, facilitator roles, escalation rules, and ownership were designed around the tool. My direct production-support depth is still growing, so in GAA I would partner closely with platform and engineering specialists while remaining accountable for requirements, acceptance evidence, adoption, and value realization.",
+    "evidence": "Role requires sustainable digital solutions; internal Data Theory guidance emphasizes maintenance, owners, versioning, testing, and operational health.",
+    "panelFocus": [
+      "Torian Conner",
+      "Deana Kimbler-Muehl"
+    ],
+    "followUps": [
+      "What would you monitor first after launch?",
+      "How would you decide whether to fix, roll back, or retire a product?"
+    ]
+  },
+  {
+    "id": "source-reconcile-01",
+    "category": "Data Governance",
+    "priority": "High",
+    "prepStatus": "Net-new",
+    "question": "Two approved source systems produce different totals for the same business question. How do you determine which number is right?",
+    "answer": "I would not average the numbers or select the one that looks more reasonable. I would first align the intended population, business grain, time boundary, access scope, join keys, record-state logic, duplicate handling, and exclusions. I have dealt with this in LVV when VMP and COMET did not initially reconcile: differences in record visibility and state-level records could change totals. I would turn the reconciliation into a repeatable control, document the authoritative use of each source, and expose unresolved differences rather than hiding them. The principle is that trust comes from explainable lineage and business definitions, not from forcing two numbers to match.",
+    "evidence": "Direct J&J example: investigated VMP/COMET mismatches, visibility differences, and duplicate NC state records.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Torian Conner"
+    ],
+    "followUps": [
+      "When would you allow two different numbers to coexist?",
+      "How would you document source authority?"
+    ]
+  },
+  {
+    "id": "analytical-readiness-01",
+    "category": "Data theory",
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "question": "How do you decide whether a business problem is ready for predictive analytics or AI?",
+    "answer": "I begin with the decision and the analytical ask, then assess whether governance and engineering are mature enough to support it. I look for a clear owner, stable definitions, appropriate grain, usable identifiers, sufficient history, known missingness, reproducible extraction, permitted access, and a way to test outcomes. If those foundations are weak, I reduce the analytical ambition rather than masking the problem with a more complex model. I may start with historical or diagnostic analytics, improve the data and operating process, and only move to predictive or prescriptive methods when the evidence supports it. In LVV, that is the same reason I focus on metric definition and observable behaviors before automating a KPI.",
+    "evidence": "Internal Data Operating Model separates analytical ask maturity from governance/architecture and engineering/administration maturity.",
+    "panelFocus": [
+      "Torian Conner",
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "id": "model-trust-01",
+    "category": "AI / Risk",
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "question": "An audit risk model is statistically sound, but auditors do not trust it. What would you do?",
+    "answer": "I would not frame that as a user-resistance problem first. I would ask what evidence an auditor needs to trust and challenge the output. I would expose the score drivers, data provenance, weighting or model logic at the appropriate level, known limitations, and uncertainty. Then I would compare the model with real historical decisions and capture structured reasons when auditors override it. The goal is not to force adoption; it is to create a transparent decision-support loop where human judgment remains accountable and disagreements become information for improving data, features, thresholds, or the workflow.",
+    "evidence": "Extends current risk-model answer with explainability, override learning, and adoption.",
+    "panelFocus": [
+      "Torian Conner",
+      "Avennia Richards-Maragh"
+    ]
+  },
+  {
+    "id": "prod-incident-01",
+    "category": "Product / Operations",
+    "priority": "High",
+    "prepStatus": "Net-new",
+    "question": "A source schema changes and the production analytic starts producing unreliable output. What do you do?",
+    "answer": "My first step is containment: identify affected outputs, stop or clearly flag unreliable refreshes, preserve evidence, notify the accountable owners, and use the approved fallback if one exists. Then I isolate whether the failure is at generation, standardization, aggregation, analysis, or the application layer. Recovery means a tested correction, reconciliation against known outputs, documented approval, controlled release, and post-release monitoring. I have adjacent experience handling definition and source-logic changes in operational metrics; I would not claim that I have independently operated a global audit ML platform, but the control pattern is the same: contain, diagnose, correct, verify, release, monitor, learn.",
+    "evidence": "Internal repository guidance explicitly covers operational health, testing, governance, and production maintenance.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl",
+      "Torian Conner"
+    ]
+  },
+  {
+    "id": "3e-proof-01",
+    "category": "3E",
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "question": "How would you prove a digital audit solution created value beyond simply saving analyst hours?",
+    "answer": "I would define value before development. For Efficiency, I might measure lower extraction effort, cycle time, rework, or run cost. For Effectiveness, I would look for improved risk coverage, earlier detection, more consistent control testing, or better decision quality without simply increasing cost. For Experience, I would measure stakeholder usability, time-to-answer, adoption, and confidence in the workflow. I would establish a normal baseline, measurable KPI, data source, classification, target, and owner, align the methodology with Finance, and track realized results against the committed estimate. I would avoid presenting activity counts as value unless they connect to a business outcome.",
+    "evidence": "3E playbook requires Define Value, Commit Value, Track Value; baseline, KPI/data-source alignment, Finance validation, realized-versus-estimated tracking.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Torian Conner"
+    ]
+  },
+  {
+    "id": "third-party-ownership-01",
+    "category": "Product / Operations",
+    "priority": "Medium",
+    "prepStatus": "Net-new",
+    "question": "How would you govern a solution developed partly by a third party once GAA is accountable for it?",
+    "answer": "I would make operational ownership explicit before accepting the handoff. GAA should know the business owner, technical maintainer, code and documentation location, dependency list, data contracts, version, test evidence, support path, release process, security requirements, and exit or transition plan. I would avoid accepting a black-box deliverable that only works while the original developer is present. If the solution is analytical or AI-enabled, I would also require reproducibility, monitoring, known limitations, and a way for GAA to validate outputs independently.",
+    "evidence": "Job description includes third-party work while retaining responsibility for sustainable solutions; Data Theory stresses maintenance documentation and ownership.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "id": "goodhart-risk-01",
+    "category": "Data Governance",
+    "priority": "Medium",
+    "prepStatus": "Net-new",
+    "question": "How do you prevent a risk metric from becoming the target and driving the wrong behavior?",
+    "answer": "I separate the outcome I care about from the observable behaviors and controls that influence it. I would use more than one measure where necessary, monitor leading and lagging indicators, review exceptions qualitatively, and watch for behavior changes after the metric is introduced. In my LVV Data Operating Theory work, the core lesson was that reducing an NC count is not sufficient if the measurement system encourages under-reporting or does not observe the underlying ALCOA+ behaviors. A metric should help us understand the system, not give the system an incentive to look good.",
+    "evidence": "Internal Data Theory materials explicitly discuss Goodhart's Law, perverse feedback, self-amplifying cascades, and behavior impact.",
+    "panelFocus": [
+      "Torian Conner",
+      "Cameron Craig"
+    ]
+  },
+  {
+    "id": "adoption-behavior-01",
+    "category": "Leadership",
+    "priority": "Medium",
+    "prepStatus": "Strengthen",
+    "question": "How would you know whether global digital training actually changed behavior rather than simply achieving attendance?",
+    "answer": "I would measure three different layers: availability, usage, and behavior change. Completion or attendance only proves exposure. Usage shows whether the product entered the workflow. The real outcome is whether decisions, escalations, evidence selection, cycle time, or other target behaviors changed in the intended direction. In LVV Tier management, adoption came from embedding the board into the daily operating cadence, training facilitators, defining escalation rules, and making ownership visible. I would use the same approach in GAA: observe the workflow after training, collect friction and exceptions, and reinforce the behaviors that actually create value.",
+    "evidence": "Role requires global adoption; internal Data Operating Model links application value with uptake/adoption and behavioral impact.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl",
+      "Avennia Richards-Maragh"
+    ]
+  },
+  {
+    "id": "semantic-stewardship-01",
+    "category": "Data Governance",
+    "priority": "Medium",
+    "prepStatus": "Net-new",
+    "question": "How would you handle a situation where Finance and GAA use the same source data but need different business semantics?",
+    "answer": "I would first identify what should be canonical and what is legitimately domain-specific. Source entities, identifiers, currencies, time logic, and governed enterprise definitions should be reused where applicable. Audit-specific transformations or derived risk features should remain visible, documented, and traceable back to those governed sources. I would avoid forcing every domain question into one semantic definition if that destroys the decision context. The control is to make the transformation explicit: who owns it, why it exists, how it changes the grain or meaning, and how a user can trace the result back to source.",
+    "evidence": "Relevant to Finance data stewardship and Data Theory governance/provenance principles.",
+    "panelFocus": [
+      "Cameron Craig"
+    ]
+  },
+  {
+    "id": "tech-sql-grain-01",
+    "category": "Technical",
+    "priority": "High",
+    "prepStatus": "Net-new",
+    "question": "Before writing SQL to join SAP process-order data, how do you decide the grain and avoid double counting?",
+    "answer": "I define the business event first and make the SQL reflect it. In my LVV schedule-attainment work, Raritan and Sassenheim could not be joined or counted the same way mechanically because Raritan used one process order per batch start while Sassenheim represented a campaign through preculture and drug-substance orders. I separated the campaign universe from the actual on-schedule thaw event instead of counting process-order rows. In SQL terms, I would define the scoring entity, keys, valid event states, and deduplication rules first; then test row counts and reconciliation at each join so the data model cannot silently multiply the business event.",
+    "evidence": "Direct LVV SAP schedule-attainment example demonstrates grain, multi-PO structure, denominator logic, and metric redesign.",
+    "panelFocus": [
+      "Cameron Craig",
+      "Deana Kimbler-Muehl"
+    ],
+    "depth": "Explain grain, primary/business keys, one-to-many joins, row-count reconciliation, and why business semantics come before SQL syntax."
+  },
+  {
+    "id": "tech-api-01",
+    "category": "Technical",
+    "priority": "Medium",
+    "prepStatus": "Strengthen",
+    "question": "What controls would you put around an API that feeds an audit analytic?",
+    "answer": "I would define the endpoint contract, authentication and least-privilege access, expected schema, pagination and completeness logic, retry behavior, timeout and rate-limit handling, error logging, version compatibility, and data-quality checks on received records. I would distinguish connection availability from data validity: a successful HTTP response does not prove the payload is complete or semantically correct. For a production audit use case, I would also define how failed or partial loads are surfaced, what downstream outputs are blocked, and who owns incident response. My direct experience is stronger in applied automation and API-oriented workflows than in owning an enterprise API platform, so I would work with engineering for platform-specific implementation while owning the acceptance criteria and controls.",
+    "evidence": "Strengthens existing API bridge without overstating implementation depth.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "id": "tech-react-01",
+    "category": "Technical",
+    "priority": "Medium",
+    "prepStatus": "Net-new",
+    "question": "If you were building a React interface for an audit risk application, what would you keep in the front end versus the backend?",
+    "answer": "I would keep presentation state, navigation, input validation for user experience, and interaction logic in the front end, but I would not put authoritative risk logic, access-control decisions, or sensitive source credentials in browser code. The backend should own authenticated data access, governed transformations, scoring logic, authorization enforcement, and audit logging. The UI should present the score, drivers, limitations, and permitted review actions. My React/JavaScript experience supports reasoning about componentized interfaces and API consumption, but I would be transparent about the scale of systems I have personally owned.",
+    "evidence": "Adds a technical architecture probe relevant to ARA's React/JavaScript context from the user's hiring-manager notes.",
+    "panelFocus": [
+      "Deana Kimbler-Muehl"
+    ]
+  },
+  {
+    "id": "manager-ready-01",
+    "category": "Leadership",
+    "priority": "High",
+    "prepStatus": "Strengthen",
+    "question": "What would you need to demonstrate during the leadership program for you to consider yourself manager-ready?",
+    "answer": "For me, manager-ready would mean more than delivering strong individual work. I would expect to demonstrate that I can set outcomes and priorities, delegate with clear decision rights, coach different capability levels, give direct feedback, manage trade-offs transparently, develop people, and create an operating system that performs without depending on me for every decision. My current evidence is strongest in cross-functional leadership: facilitating Lean work, training Tier facilitators, aligning Raritan and Sassenheim stakeholders, and building processes that continued without my daily presence. The development edge I want from the program is converting that influence-based leadership into accountable people leadership.",
+    "evidence": "Strengthens the existing people-leadership answer using the stated manager-ready goal from the user's hiring-manager discussion notes.",
+    "panelFocus": [
+      "Torian Conner"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ask-override-loop",
+    "top5": true,
+    "question": "When an auditor's judgment and an ARA risk score diverge, how do you want that override captured: as an exception, as feedback for recalibration, or both? And what evidence makes that override useful rather than anecdotal?",
+    "bestFor": "Torian Conner / Deana Kimbler-Muehl",
+    "whyStrong": "Connects human judgment, explainability, model governance, and organizational learning without assuming the model is the decision maker.",
+    "followUp": "Is that feedback currently closing the loop into taxonomy, weighting, or data-quality improvements?"
+  },
+  {
+    "id": "ask-continuous-monitoring",
+    "top5": true,
+    "question": "As GAA moves toward more continuous monitoring, how do you preserve professional skepticism and independence when the analytic itself begins influencing management behavior?",
+    "bestFor": "Torian Conner / Avennia Richards-Maragh",
+    "whyStrong": "Shows you understand that analytics changes the system it observes and that audit judgment cannot simply be automated away.",
+    "followUp": "Have you defined where analytics should inform judgment versus where it must never become the decision?"
+  },
+  {
+    "id": "ask-product-reliance",
+    "top5": true,
+    "question": "What distinguishes a one-time successful analytic from a product that GAA is prepared to rely on repeatedly: named ownership, test evidence, operational-health thresholds, release controls, or retirement criteria?",
+    "bestFor": "Deana Kimbler-Muehl",
+    "whyStrong": "Moves beyond building toward operating-model maturity and long-term reliability.",
+    "followUp": "Which of those capabilities is currently hardest to sustain?"
+  },
+  {
+    "id": "ask-semantics",
+    "top5": true,
+    "question": "When GAA and Finance consume the same enterprise data but need different semantics, where do you prefer canonical definitions, and where should domain-specific transformations remain visible?",
+    "bestFor": "Cameron Craig",
+    "whyStrong": "Directly engages data stewardship, provenance, re-use, and legitimate domain-specific meaning.",
+    "followUp": "How is provenance preserved when an audit-specific feature is derived from a Finance-governed measure?"
+  },
+  {
+    "id": "ask-3e-balance",
+    "top5": true,
+    "question": "For 3E value, how do you prevent an easily measured Efficiency gain from overshadowing a harder but more important Effectiveness outcome such as better risk coverage or earlier insight?",
+    "bestFor": "Full panel",
+    "whyStrong": "Shows value-realization maturity and avoids reducing transformation to labor-hour savings.",
+    "followUp": "Do you commit both leading adoption measures and lagging risk outcomes before development?"
+  },
+  {
+    "id": "ask-signal-fidelity",
+    "top5": false,
+    "question": "Where does signal fidelity degrade most today: source access, entity matching, taxonomy consistency, risk weighting, or how decision-makers consume the output?",
+    "bestFor": "Torian Conner",
+    "whyStrong": "Frames transformation as an end-to-end data and decision system rather than a frontend problem.",
+    "followUp": "Would you want this role to address that primarily through product work, governance, or operating-model change?"
+  },
+  {
+    "id": "ask-manager-ready",
+    "top5": false,
+    "question": "What observable behaviors distinguish someone who is manager-ready at the end of the 18-month program from an excellent individual contributor?",
+    "bestFor": "Torian Conner",
+    "whyStrong": "Turns a generic career-growth question into a concrete leadership-outcomes question.",
+    "followUp": "How are stretch ownership and feedback structured to test those behaviors during the program?"
+  },
+  {
+    "id": "ask-learning-loop",
+    "top5": false,
+    "question": "When a digital audit product produces an unexpected result, how does the team decide whether the lesson belongs in the data, model, control design, auditor workflow, or product operating model?",
+    "bestFor": "Deana Kimbler-Muehl / Avennia Richards-Maragh",
+    "whyStrong": "Demonstrates systems thinking and separates technical defects from operating-process learning.",
+    "followUp": "Where is that learning captured so the next product benefits from it?"
+  }
+]
